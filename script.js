@@ -1,27 +1,27 @@
-"use strict";
-//--------------------Practice----------------------------
-let test = { name: "Brandon", class: "FE" };
-console.log(test.name);
-test.name = "Brandon Robinson";
-console.log(test.name);
+// "use strict";
+// //--------------------Practice----------------------------
+// let test = { name: "Brandon", class: "FE" };
+// console.log(test.name);
+// test.name = "Brandon Robinson";
+// console.log(test.name);
 
-let testArray = [
-  { name: "Brandon", class: "FE" },
-  { name: "Mitch", class: "FE" },
-];
+// let testArray = [
+//   { name: "Brandon", class: "FE" },
+//   { name: "Mitch", class: "FE" },
+// ];
 
-console.log(testArray[0].name);
-testArray[1].name = "Mitttcchh";
+// console.log(testArray[0].name);
+// testArray[1].name = "Mitttcchh";
 
-//human represents an object in the array
-//testArray.foreach to allow us to loop through the array
-//human is representing an object while name is referencing the parameter in the name in testArray
-//use a forEach loop to look at each item in the array
-//refer  to each item as humans
-//log the value of the name property from each object (human)
-testArray.forEach((human) => {
-  console.log(human.name);
-});
+// //human represents an object in the array
+// //testArray.foreach to allow us to loop through the array
+// //human is representing an object while name is referencing the parameter in the name in testArray
+// //use a forEach loop to look at each item in the array
+// //refer  to each item as humans
+// //log the value of the name property from each object (human)
+// testArray.forEach((human) => {
+//   console.log(human.name);
+// });
 
 //-----------------------------------LAB------------------------------------
 
